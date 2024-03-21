@@ -1,5 +1,9 @@
+import GLightbox from 'glightbox';
+
+
 (function () {
     "use strict";
+
 
     /**
      * Easy selector helper function
@@ -172,9 +176,9 @@
     /**
      * Initiate portfolio lightbox 
      */
-    // const portfolioLightbox = GLightbox({
-    //   selector: '.portfolio-lightbox'
-    // });
+    const portfolioLightbox = GLightbox({
+      selector: '.portfolio-lightbox'
+    });
 
     /**
      * Testimonials slider
