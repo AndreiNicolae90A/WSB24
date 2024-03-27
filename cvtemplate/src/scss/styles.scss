@@ -30,7 +30,7 @@ $color_1: #4e4e4e;
 $color_2: #1a1a1a;
 $color_3: #cc005f;
 $color_4: #f5f5f5;
-$color_5: #075b35;
+$color_5: #019653;
 $color_6: #9ff713;
 $color_7: #08b8f8;
 $color_8: #f12512;
@@ -90,6 +90,7 @@ $dm-text-color-secondary: rgba(256, 256, 256, 0.7);
 @import "about";
 @import "portfolio";
 @import "experience";
+@import "githubapi";
 @import "contact";
 @import "footer";
 
