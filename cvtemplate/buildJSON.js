@@ -22,6 +22,7 @@ function buildJSON() {
         })
     })
     // console.log(wordsTr);
+    
     // Pas 2 transform in json
     const myJson = Object.assign({}, ...wordsTr)
     const json = JSON.stringify(myJson);
